@@ -44,3 +44,14 @@ console.log(result);
 2.positive hole b age asbe
 3.0 hole 2 jon same
 */
+
+// Array of object:
+let studens = [
+    {name:'Rimon',age:22,dept:'cse'},
+    {name:'Asik',age:20,dept:'eee'},
+    {name:'Hasan',age:23,dept:'bba'}
+]
+console.log(studens[2].age);
+// Last object access:
+let lastObj = studens[studens.length - 1].name;
+console.log(lastObj);
