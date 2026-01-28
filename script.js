@@ -82,3 +82,18 @@ for (let i = 0; i < martix.length; i++){
         console.log(martix[i][j]);
     }
 }
+
+// Multiple way to array copy:
+const array1 = [12,333,222,2,2,2,3];
+const array2 = array1;
+console.log(array2);
+const changeaArray2Value = array2[0]=1111111111112;
+console.log(changeaArray2Value);
+console.log(array1);
+
+// Right way spred operator 
+let array3 = [...array1];
+console.log(array3);
+let c = array3[0]=20000111222
+console.log(array3);
+console.log(array1);
