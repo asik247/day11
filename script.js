@@ -97,3 +97,10 @@ console.log(array3);
 let c = array3[0]=20000111222
 console.log(array3);
 console.log(array1);
+let neyArray = []
+console.log(neyArray);
+for (let a4 of array1){
+    neyArray.push(a4)
+   
+}
+console.log(neyArray);
