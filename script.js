@@ -55,3 +55,10 @@ console.log(studens[2].age);
 // Last object access:
 let lastObj = studens[studens.length - 1].name;
 console.log(lastObj);
+// specific daa find using filter meethod
+let spc = studens.filter(s=>s.age >21);
+console.log(spc);
+// for of loop 
+for (let stud of studens){
+    console.log(stud.name,stud.age);
+}
