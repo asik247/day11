@@ -9,3 +9,9 @@ while(i < fruits.length){
     console.log(fruits[i]);
     i++
 }
+
+// sorted
+const ages = [12,32,334,3,3,2,2,];
+let agesAcd = ages.sort((a,b)=>a-b)
+console.log(agesAcd);
+// console.log(ages.sort());
