@@ -15,3 +15,17 @@ const ages = [12,32,334,3,3,2,2,];
 let agesAcd = ages.sort((a,b)=>a-b)
 console.log(agesAcd);
 // console.log(ages.sort());
+let decending = ages.sort((a,b)=>b-a);
+console.log(decending);
+// Assending of number:
+const myMarks = [12,13,32,31,55,66,54,56,78,87];
+const assendingMark = myMarks.sort(function(a,b){
+    return a-b
+})
+console.log(assendingMark);
+// String decending:
+const friendsNames = ['khan','jaman','kamal','motin','kaddus','salam'];
+const decendingFriendsName = friendsNames.sort().reverse();
+console.log(decendingFriendsName);
+// assending code
+console.log(friendsNames.sort());
