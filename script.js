@@ -52,6 +52,8 @@ let studens = [
     {name:'Hasan',age:23,dept:'bba'}
 ]
 console.log(studens[2].age);
+let changeAge = studens[0].age = 55
+console.log(changeAge);
 // Last object access:
 let lastObj = studens[studens.length - 1].name;
 console.log(lastObj);
@@ -61,4 +63,22 @@ console.log(spc);
 // for of loop 
 for (let stud of studens){
     console.log(stud.name,stud.age);
+}
+
+// 2D Array Code Start Here:
+const martix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+for (let row of martix){
+    console.log(row);
+    for(let value of row){
+        console.log(value);
+    }
+}
+for (let i = 0; i < martix.length; i++){
+    for (let j = 0; j < martix[i].length; j++){
+        console.log(martix[i][j]);
+    }
 }
